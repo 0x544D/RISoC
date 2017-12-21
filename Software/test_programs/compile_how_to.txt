@@ -1,0 +1,7 @@
+To Compile:
+
+riscv64-unknown-elf-gcc -nostdlib -nostartfiles -Tlink.ld -o test test.s
+
+View objdump:
+
+riscv64-unknown-elf-objdump -d test
